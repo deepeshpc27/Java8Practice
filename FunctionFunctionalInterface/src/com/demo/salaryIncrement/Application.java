@@ -10,6 +10,7 @@ public class Application {
 		ArrayList<Employee> list2 = new ArrayList<Employee>();
 		IncrementSalary inc = new IncrementSalary();
 		
+		
 		System.out.println("Before Increment:");
 		inc.addEmployees(list);
 		list.forEach(emp -> {

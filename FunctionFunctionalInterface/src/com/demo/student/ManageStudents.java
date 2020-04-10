@@ -51,6 +51,7 @@ public class ManageStudents {
 			System.out.println("Student Name: " +stu.getName() + ", Marks: " +stu.getMarks() + ", Grade: " + f.apply(stu) + ", Subject: " + stu.getSubject());
 	
 		});
+		
 	
 		double totalMarks = 0;
 		for(Student m : list) {

@@ -24,7 +24,8 @@ public class SortingArrayList {
 	Collections.sort(l, (I1,I2) -> (I1>I2)?-1:(I1<I2)?1:0);
 	
 	System.out.println("Elements after sorting: " +l);
-	
+	//l.forEach(System.out::println);
+
 	}
 	
 }
